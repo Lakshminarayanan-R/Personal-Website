@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include 'bootstrap.html' %}
+  </head>
+  {% include 'header.html' %}<br>
+  <body>
+    <style>
+      #intro_passage{
+        text-align: left;
+        padding-top: 20px;
+        padding-left:0px
+      }
+      #pro_pic{
+        padding-top: 50px;
+        padding-left:50px;
+        padding-right:50px;
+        height:300px; 
+        object-fit:cover;
+        background: transparent;
+      }
+      body {
+        background-color: #FFFACD;
+      }
+    </style>
+    <div class = "container">
+    <div class='row'>
+      <div class='d-none d-md-block col-md-3'>
+        <img id = 'pro_pic' src='/static/pro-pic.png' class="img-thumbnail">
+      </div>
+      <div class='col-md-9'>
+        <h2 style='font-family:cursive'>
+          My Intro
+        </h2>
+        <p id = "intro_passage" class='lead mt-100' style='font-style:bold'>
+          I'm Lakshminarayanan R. I am currently working as a Data Analyst at Vestas. I am a self taught Data Analyst and an upcoming Data Scientist. I have created this website to experiment my web development skills and also to post blogs around interesting topics. I have a seperate page to showcase my projects.
+        </p>
+        <p>Following are the contents that you can find in this website</p>
+        <ul>
+          <li>Math you need to know for Data Science</li>
+          <li>Topics around paractical Data Analytics</li>
+          <li>Book Reviews</li>
+          <li>Get to know more about what projects I am currently working on</li>
+        </ul>
+      </div>
+    </div>
+    <div class='row'>
+      <div class='col-md-3' style='padding-top:20px;'>
+      <h4>Education</h4>
+        <p><b>B.E. Mechanical engineering</b>, St.Joseph's College of Engineering, Chennai, India (2016-2020)<br> <b>CGPA: 8.75/ 10 </b></p>
+        <p><b>M.Tech Data Science and Engineering</b>, BITS Pilani, Rajastan, India (2022-2024)</p>
+      </div>
+      <div class='col-md-9' style='padding-top:20px;'>
+        <h3><center>My Tech Stack</center></h3>
+        <div class="row">
+          <div class="col-md-2" style='padding-top:5px;'>
+            <img src="/static/python.png" alt="python" style="width:100%">
+          </div>
+          <div class="col-md-2">
+            <img src="/static/sql.png" alt="sql" style="width:100%">
+          </div>
+          <div class="col-md-2" style='padding-top:10px;'>
+            <img src="/static/github.png" alt="github" style="width:100%">
+          </div>
+          <div class="col-md-2" style='padding-top:10px;'>
+            <img src="/static/excel_ms.png" alt="excel" style="width:100%">
+          </div>
+          <div class="col-md-2" style='padding-top:10px;'>
+            <img src="/static/power apps.png" alt="power_apps" style="width:100%">
+          </div>
+          <div class="col-md-2" style='padding-top:10px;'>
+            <img src="/static/Databricks_Logo.png" alt="databricks" style="width:100%">
+          </div>
+        </div>
+        <div class='row'>
+          <div class="col-md-2" style='padding-top:10px;'>
+            <img src="/static/power bi.png" alt="power bi" style="width:100%">
+          </div>
+          <div class="col-md-2" style='padding-top:10px;'>
+            <img src="/static/html_css.png" alt="html" style="width:100%">
+          </div>
+          <div class="col-md-2" style='padding-top:10px;'>
+            <img src="/static/autocad.png" alt="autocad" style="width:100%">
+          </div>
+          <div class="col-md-2" style='padding-top:10px;'>
+            <img src="/static/creo.png" alt="creo" style="width:100%">
+          </div>
+        </div>
+      
+    </div>
+    
+  </body>
+</html>
